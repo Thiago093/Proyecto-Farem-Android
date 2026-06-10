@@ -151,49 +151,6 @@
             android:layout_height="80dp" />
 
         <!-- Barra inferior -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:background="#4285F4"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:src="@drawable/ic_home"
-                app:tint="#FFFFFF" />
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:src="@drawable/ic_exam"
-                app:tint="#FFFFFF" />
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:src="@drawable/ic_users"
-                app:tint="#FFFFFF" />
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:src="@drawable/ic_report"
-                app:tint="#FFFFFF" />
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:src="@drawable/ic_profile"
-                app:tint="#FFFFFF" />
-
-        </LinearLayout>
 
     </LinearLayout>
 

@@ -1,0 +1,42 @@
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\">\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:dataExtractionRules=\"@xml/data_extraction_rules\"\r\n        android:fullBackupContent=\"@xml/backup_rules\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/Theme.ProyectoFAREM\">\r\n        <activity android:name=\".ServiciosActivity\" />\r\n\r\n        <activity  android:name=\".AcercaActivity\"/>\r\n\r\n        <activity\r\n            android:name=\".ExamenActivity\"\r\n            android:exported=\"true\">\r\n\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n\r\n        </activity>\r\n    </application>\r\n\r\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+--- a/app/src/main/AndroidManifest.xml	(revision 6328d44798d07e79b555e7428c6d12acb76371d2)
++++ b/app/src/main/AndroidManifest.xml	(date 1781100538176)
+@@ -11,9 +11,12 @@
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+         android:theme="@style/Theme.ProyectoFAREM">
+-        <activity android:name=".ServiciosActivity" />
++        <activity android:name=".ServiciosActivity"
++            android:exported="true"/>
+ 
+-        <activity  android:name=".AcercaActivity"/>
++
++        <activity  android:name=".AcercaActivity"
++            android:exported="true"/>
+ 
+         <activity
+             android:name=".ExamenActivity"
+Index: gradle/libs.versions.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[versions]\r\nagp = \"9.1.1\"\r\ncoreKtx = \"1.18.0\"\r\njunit = \"4.13.2\"\r\njunitVersion = \"1.3.0\"\r\nespressoCore = \"3.7.0\"\r\nappcompat = \"1.7.1\"\r\nmaterial = \"1.14.0\"\r\nactivity = \"1.13.0\"\r\nconstraintlayout = \"2.2.1\"\r\n\r\n[libraries]\r\nandroidx-core-ktx = { group = \"androidx.core\", name = \"core-ktx\", version.ref = \"coreKtx\" }\r\njunit = { group = \"junit\", name = \"junit\", version.ref = \"junit\" }\r\nandroidx-junit = { group = \"androidx.test.ext\", name = \"junit\", version.ref = \"junitVersion\" }\r\nandroidx-espresso-core = { group = \"androidx.test.espresso\", name = \"espresso-core\", version.ref = \"espressoCore\" }\r\nandroidx-appcompat = { group = \"androidx.appcompat\", name = \"appcompat\", version.ref = \"appcompat\" }\r\nmaterial = { group = \"com.google.android.material\", name = \"material\", version.ref = \"material\" }\r\nandroidx-activity = { group = \"androidx.activity\", name = \"activity\", version.ref = \"activity\" }\r\nandroidx-constraintlayout = { group = \"androidx.constraintlayout\", name = \"constraintlayout\", version.ref = \"constraintlayout\" }\r\n\r\n[plugins]\r\nandroid-application = { id = \"com.android.application\", version.ref = \"agp\" }\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/gradle/libs.versions.toml b/gradle/libs.versions.toml
+--- a/gradle/libs.versions.toml	(revision 6328d44798d07e79b555e7428c6d12acb76371d2)
++++ b/gradle/libs.versions.toml	(date 1781100339836)
+@@ -1,5 +1,5 @@
+ [versions]
+-agp = "9.1.1"
++agp = "9.0.0"
+ coreKtx = "1.18.0"
+ junit = "4.13.2"
+ junitVersion = "1.3.0"

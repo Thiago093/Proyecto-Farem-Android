@@ -11,9 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFAREM">
-        <activity android:name=".ServiciosActivity" />
+        <activity android:name=".ServiciosActivity"
+            android:exported="true"/>
 
-        <activity  android:name=".AcercaActivity"/>
+        <activity  android:name=".AcercaActivity"
+            android:exported="true"/>
 
         <activity
             android:name=".ExamenActivity"
