@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/examen"
+        android:icon="@drawable/exam"
+        android:title="Exámenes"/>
+
+    <item
+        android:id="@+id/usuarios"
+        android:icon="@drawable/grupo_de_personas"
+        android:title="Especialistas"/>
+
+    <item
+        android:id="@+id/perfil"
+        android:icon="@drawable/perfil"
+        android:title="Perfil"/>
+
+</menu>
