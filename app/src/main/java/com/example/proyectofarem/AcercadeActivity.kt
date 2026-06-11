@@ -1,4 +1,4 @@
-package com.example.proyectofarem
+package com.example.proyectofarem;
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

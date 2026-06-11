@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFAREM">
+
+
         <activity
             android:name=".AcercadeActivity"
             android:exported="true" />
@@ -19,6 +21,30 @@
             android:exported="true" />
         <activity
             android:name=".EnviarexamenActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ExamenesRecibidosActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".EspecialistasActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".MisExamenesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
