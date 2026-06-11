@@ -12,8 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFAREM">
 
+
         <activity
-            android:name=".MainActivity"
+            android:name=".AcercadeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ServiciosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EnviarexamenActivity"
             android:exported="true"/>
 
         <activity
@@ -39,16 +46,12 @@
         <activity
             android:name=".MisExamenesActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
-
-
     </application>
 
 </manifest>
