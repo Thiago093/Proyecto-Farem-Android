@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EnviarexamenActivity">
+    tools:context=".AcercadeActivity">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -66,130 +66,107 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:text="Examenes a leer"
+        android:layout_marginTop="164dp"
+        android:text="Acerca de FAREM"
+        android:textColor="#338cff"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:textColor="#338cff"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="383dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="220dp"
-        android:background="@drawable/edit_style"
-        android:ems="10"
-        android:hint="Nombre completo"
-        android:inputType="text"
-        android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.535"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
-
-    <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="383dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="340dp"
-        android:background="@drawable/edit_style"
-        android:ems="10"
-        android:hint="Especialistas"
-        android:inputType="text"
-        android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
-
-    <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="383dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="400dp"
-        android:background="@drawable/edit_style"
-        android:ems="10"
-        android:hint="Tipo de examen"
-        android:inputType="text"
-        android:padding="10dp"
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:text="Aqui puedes conocer todo acerca de nosotros"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
-    <EditText
-        android:id="@+id/editTextText5"
-        android:layout_width="383dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="516dp"
-        android:background="@drawable/edit_style"
-        android:ems="10"
-        android:hint="Archivo PDF"
-        android:inputType="text"
-        android:padding="10dp"
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="327dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="244dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:srcCompat="@drawable/description_2" />
 
-    <EditText
-        android:id="@+id/editTextText4"
-        android:layout_width="380dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="572dp"
-        android:background="@drawable/edit_style"
-        android:ems="10"
-        android:hint="Asunto/Opcional"
-        android:inputType="text"
-        android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.535"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
-
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="379dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="280dp"
-        android:background="@drawable/edit_style"
-        android:ems="10"
-        android:hint="Documento de identidad"
-        android:inputType="number"
-        android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
-
-    <EditText
-        android:id="@+id/editTextNumberDecimal"
-        android:layout_width="381dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="456dp"
-        android:background="@drawable/edit_style"
-        android:ems="10"
-        android:hint="Hora/Dia"
-        android:inputType="numberDecimal"
-        android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="374dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="640dp"
-        android:text="Enviar examen"
-        android:backgroundTint="#338cff"
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="444dp"
+        android:text="Sobre FAREM"
         android:textSize="20dp"
-        app:cornerRadius="10dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="322dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="484dp"
+        android:text="Farem es la plataforma que facilita el acceso a tus exámenes médicos de manera rápida, segura y confiable. Nuestro objetivo es que consultes tus resultados desde cualquier dispositivo, en cualquier momento."
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="148dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="588dp"
+        android:text="Aceso rapido y seguro"
+        android:textColor="#579DFA"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="146dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="620dp"
+        android:text="Compatible con todos los dispositivos"
+        android:textAlignment="center"
+        android:textColor="#579DFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="588dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/square_check_solid" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="26dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="620dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/square_check_solid" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
