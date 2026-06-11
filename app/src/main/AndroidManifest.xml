@@ -12,10 +12,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFAREM">
 
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
 
         <activity
-        android:name=".EspecialistasActivity"
+            android:name=".HomeActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ExamenesRecibidosActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".EspecialistasActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".MisExamenesActivity"
             android:exported="true">
 
             <intent-filter>
@@ -25,10 +47,7 @@
 
         </activity>
 
-        <activity android:name=".MisExamenesActivity"/>
 
-
-        <activity android:name=".ExamenesRecibidosActivity" />
 
     </application>
 
