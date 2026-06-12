@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/home"
-        android:icon="@drawable/baseline_home_24"
-        android:title="Inicio"/>
+   <item
+       android:id="@+id/home"
+       android:title="Inicio"
+       android:icon="@drawable/home"/>
 
-    <item
-        android:id="@+id/examen"
-        android:icon="@drawable/exam"
-        android:title="Exámenes"/>
+   <item android:id="@+id/examenes"
+       android:title="Examenes"
+       android:icon="@drawable/exam"/>
 
-    <item
-        android:id="@+id/usuarios"
-        android:icon="@drawable/grupo_de_personas"
-        android:title="Especialistas"/>
+   <item android:id="@+id/especialistas"
+       android:title="Especialistas"
+       android:icon="@drawable/groups"/>
 
-    <item
-        android:id="@+id/perfil"
-        android:icon="@drawable/perfil"
-        android:title="Perfil"/>
+   <item android:id="@+id/perfil"
+       android:title="Perfil"
+       android:icon="@drawable/perfil"/>
+
 
 </menu>
